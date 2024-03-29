@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+*{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+:root{
+  --da-sec-btn : #D7D7D7;
+    --dark : #2C2C2C;
+    --light : #EFE3E3;
+    --li-sec-btn: #5A5454;
+}
+
+[data-theme = 'dark']{
+    --da-sec-btn : #5a5454;
+    --dark : #efe3e3;
+    --light : #2c2c2c;
+    --li-sec-btn: #d7d7d7;
+}
+
+.hero{
+  width: 100%;
+  min-height: 100vh;
+  background: var(--light);
+  color: var(--dark);
+  padding: 10px 8%;
+  position: relative;
+  overflow: hidden;
+}
+
+
+nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 15px 9%;
+  display: flex;
+  align-items: center;
+  z-index: 10;
+}
+
+nav .logo{
+  font-size: 20px;
+  font-weight: 800;
+  text-decoration: none;
+  color: var(--dark);
+  padding-right: 30px;
+  text-align: center;
+}
+
+nav .logo a .br{
+  position: relative;
+  top: -8px;
+  font-size: 22px;
+}
+
+nav .logo a:hover{
+  color: var(--li-sec-btn);
+  font-weight: 800;
+}
+
+nav ul{
+  flex: 1;
+  text-align: center;
+}
+
+nav ul li{
+  list-style: none;
+  display: inline-block;
+  padding: 5px 15px;
+}
+
+nav a{
+  text-decoration: none;
+  color: var(--dark);
+  transition: all 200ms ease-in;
+}
+
+nav a:hover{
+ color: var(--li-sec-btn);
+ font-weight: 500;
+}
+
+.main-nav{
+  padding-left:420px;
+  display: flex;
+  align-items: center;
+}
+
+.other-btn{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+
+#icon{
+  width:18px;
+  height: 16px;
+  position: relative;
+  top: 3px;
+  margin-right: 32px ;
+  cursor: pointer;
+}
+
+/* main content start */
+.main-content{
+  margin-top: 14%;
+  max-width: 500px;
+}
+
+.main-content h1{
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.main-content p{
+  line-height: 28px;
+  font-weight: 500;
+}
+
+.main-content button{
+  padding: 20px 40px;
+  background: var(--dark);
+  border: 0;
+  outline: 0;
+  margin-top:40px ;
+  margin-right:35px ;
+  border-radius: 50px;
+  font-weight: 600;
+  cursor: pointer;
+  color: var(--light);
+}
+
+.main-content button:last-child{
+  background: var(--li-sec-btn);
+  box-shadow: 0px 1px 1px 0px rgba(255, 255, 255, 0.25);
+}
+
+.main-content button:hover{
+  border: 2px solid var(--li-sec-btn);
+  background: transparent;
+  color: var(--dark);
+}
+/* main content end */
+
+/* feature-img start*/
+.feature-img{
+ width: 900px;
+ position: absolute;
+ left: 40%;
+ top: -8%;
+ z-index: 2;
+ border-top-left-radius: 10%;
+ border-top-right-radius: 10%;
+}
+/* feature-img end*/
+

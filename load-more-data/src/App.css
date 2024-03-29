@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.load-more-container{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.product-container{
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap: 10px;
+  padding: 20px;
+}
+
+.product{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+  border: 1px solid #6f6f70;
+  border-radius: 5px;
+  align-items: center
+}
+
+.product img{
+  width: 200px;
+  height: 300px;
+}
+
+.button-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  font-weight: 600;
+  font-family: "Albert Sans", sans-serif;
+  font-optical-sizing: auto;
+  text-transform: capitalize;
+}

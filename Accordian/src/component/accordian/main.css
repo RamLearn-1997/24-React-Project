@@ -1,0 +1,43 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Inter-Tight', sans-serif;
+}
+
+
+  
+  .item {
+    background: transparent;
+    margin-bottom: 5px;
+    padding: 10px;
+  }
+  
+  .title {
+    color: #272727;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    padding: 10px 0px; 
+    font-weight: bold;
+  }
+
+  .title h3{
+    font-size: 16px;
+    padding-right: 25px;
+  }
+  
+.content {
+    background: #EEF6F3;
+    color: #505050;
+    height: auto;
+    width: 320px;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  
+ 
+  

@@ -1,0 +1,26 @@
+.container {
+    margin-left: 190px ;
+    margin-top: 80px ;
+}
+
+.button-container{
+    margin-left: 300px ;
+    margin-top: 40px ;
+    
+}
+
+.button-container button{
+    margin-left: 50px;
+    font-size: 18px;
+    border: none;
+    padding: 10px;
+    background: #ebe9e9;
+    color:#222121;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button-container button:hover{
+    background-color: #898686;
+    color: #ebe9e9;
+}

@@ -1,0 +1,39 @@
+.contain{
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.contain h2{
+    margin-left: 225px;
+}
+
+.tree-view-container{
+    min-height: 82vh;
+    width: 350px;
+    background: #f8f5f5;
+    color: #1f1f1f;
+    padding-top: 120px;
+    overflow: auto;
+}
+
+.menu-list-container{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.menu-item{
+   display: flex;
+   align-items: center;
+   gap:20px;
+   cursor: pointer;
+}
+ 
+p{
+    font-weight: 600;
+}
+
+span{
+    font-size: 24px;
+}

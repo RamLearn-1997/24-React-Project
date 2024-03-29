@@ -1,0 +1,15 @@
+/* src/App.css */
+.App {
+  text-align: center;
+}
+
+.slider-container {
+  display: flex;
+  justify-content: center;
+}
+
+.slider-container img {
+  max-width: 100%;
+  height: auto;
+  margin: 0 10px;
+}

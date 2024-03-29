@@ -1,0 +1,62 @@
+/* ImageSlider.css */
+
+.slider-container {
+    position: relative;
+    width: 100%;
+  }
+  
+  .slider-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .slider-images img {
+    display: none;
+    width: 100%;
+    height: auto;
+  }
+  
+  .slider-images img.active {
+    display: block;
+  }
+  
+  .controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+  }
+  
+  .controls button {
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+    padding: 10px;
+  }
+
+  
+  
+  .circles {
+    display: flex;
+    align-items: center;
+  }
+  
+  .circle {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin: 0 5px;
+    cursor: pointer;
+    background-color: #ccc;
+  }
+  
+  .circle.active {
+    background-color: #333;
+  }
+  

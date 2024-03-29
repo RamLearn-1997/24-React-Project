@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+:root{
+  /* Colors */
+  --bg : #F0F4FF;
+  --allHeaderText : #060606;
+  --bodytextandsecondarybtn : #777575;
+  --containerAndButtoncolor: #FFFFFF;
+  --buttonbg: #2F54DB;
+  --stargold: #F7D244;
+  --stardark: #D9D9D9;
+
+  /* Font */
+  --fontFamily : "Poppins", sans-serif;
+
+  /* Font Weight */
+  --semibold :  600;
+  --medium : 500;
+  --regular: 400;
+
+  /* Drop shadow on container */
+  
+  --dropshadow:  0px 1px 2px 0px rgba(0,0,0,20%),
+  0px 1px 2px 0px rgba(0,0,0,20%),
+  0px 1px 2px 0px rgba(0,0,0,20%),
+  0px 1px 2px 0px rgba(0,0,0,20%);
+     
+}
+
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--fontFamily);
+  
+}
+
+body,html{
+  background: var(--bg);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 30px;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+
+/* Star rating css */
+.star{
+  /* do not increase width and height of unicode instead of that increase the font size  */
+  font-size: 45px;
+  padding-left: 10px;
+  cursor: pointer;
+  
+}
+
+ .active{
+  color: var(--stargold);
+}
+
+ .inactive{
+  color: var(--stardark);
+}
+
+/* CSS styling For Star Rating Page */
+
+.header{
+  /* first part of page  */
+  font-size: 40px;
+  font-weight: var(--semibold);
+  padding-bottom: 50px;
+  padding-left: 50px;
+  color: var(--allHeaderText);
+}
+
+.container{
+   /* main container that carry all components of star-rating page*/
+  width: 500px;
+  height:440px;
+  position: relative;
+  left: 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--containerAndButtoncolor);
+  border-radius: 10px;
+  padding: 30px;
+  box-shadow: var(--dropshadow);
+  
+}
+
+.content{
+  /* giving padding-bottom for content class  */
+  padding-bottom: 15px; 
+}
+
+.content h3, .content p {
+  /* common property in the h3 and p */
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+
+.content h3{
+  /* giving font properties and color to h3 */
+  font-weight: var(--medium);
+  font-size: 25px;
+  color: var(--allHeaderText);
+}
+
+.content p{
+  /* giving font properties and color to p */
+  font-weight: var(--regular);
+  color: var(--bodytextandsecondarybtn);
+}
+
+.maincomponent{
+  /*  giving padding-bottom for star components  */
+  padding-bottom: 35px;
+}
+
+.button-container{
+  /* setting display flex with direction column */
+  display: flex;
+  flex-direction: column;
+}
+
+.button-container .btn1,.button-container .btn2{
+  /* common property in the btn1 and btn2 */
+  margin-bottom:20px ;
+}
+
+.button-container .btn1{
+  /* setting all properties of big button (btn1) */
+  width: 230px;
+  background: var(--buttonbg);
+  color: var(--containerAndButtoncolor);
+  padding:15px 35px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 20px;
+  font-weight: var(--medium);
+  transition: all 0.3s ;
+}
+
+.button-container .btn1:hover{
+  background: #3e63ed;
+  color: #c4c6c9;
+  font-weight: var(--regular);
+}
+
+.button-container .btn2{
+  /* setting all properties of link button (btn2) */
+  background: transparent;
+  color: var(--bodytextandsecondarybtn);
+  outline: none;
+  font-size: 15px;
+  font-weight: var(--medium);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ;
+
+}
+
+.button-container .btn2:hover{
+  color:var(--allHeaderText);
+  font-weight: var(--regular);
+}
