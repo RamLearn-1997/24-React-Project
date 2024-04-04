@@ -15,5 +15,4 @@ a sleek QR code generator using React and the react-qr-code library.
 
 ![qrcode](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/QR-code-generator/src/assets/Screenshot%20(337).png)
 
-![qrcode](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/QR-code-generator/src/assets/Screenshot%20(337).png)
 
