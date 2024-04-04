@@ -14,5 +14,8 @@ to detail in the design.
 
 ### output :
 
-!()[]
-**
+![modal](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/custom-model/src/assets/Model.png)
+*Modal Inactive*
+
+![modal](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/custom-model/src/assets/Model%20active.png)
+*Modal Active*
