@@ -1,7 +1,9 @@
 # Search Autocomplete
 
 ```
-In this project, we've developed a sleek Search Autocomplete feature, reminiscent of the Google search engine starter page, to enhance user experience while searching for products. 
+In this project, we've developed a sleek Search Autocomplete feature,
+reminiscent of the Google search engine starter page,
+to enhance user experience while searching for products. 
 ```
 
 ## Condition to Create Project :
@@ -15,8 +17,8 @@ By implementing this feature, we aimed to optimize the search process for users,
 
 ## Output :
 
-![]()
+![Inactive](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/search-autocomplete/src/assets/Screenshot%20(345).png)
 *Inactive state*
 
-![]()
+![Active](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/search-autocomplete/src/assets/Screenshot%20(348).png)
 *Active state*
