@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+* {
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+
+}
+
+body {
+  background-color: #010101;
+  color: #fafafa;
+}
+
+
+.search-autocomplete-container {
+  width: 100%;
+  height: 100%;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 150px;
+}
+
+h1 {
+  font-weight: 600;
+  font-size: 80px;
+}
+
+.search-inpt-container {
+  background-color: #fafafa;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  width: 650px;
+  padding: 15px 20px;
+  border-radius: 25px;
+}
+
+.search-inpt-container .img {
+  width: 20px;
+  height: 20px;
+}
+
+.search-inpt-container .img.i1 {
+  margin-left: 120px;
+}
+
+
+.search-inpt-container input {
+  border: none;
+  outline: none;
+  width: 400px;
+  padding-left: 10px;
+  font-weight: 500;
+  font-size: 16px;
+  background-color: #fafafa;
+}
+
+::placeholder {
+  color: #010101;
+  opacity: 0.9;
+  /* Firefox */
+}
+
+.listbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #fafafa;
+  width: 650px;
+  height: auto;
+  color: #010101;
+  margin-left: 358px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  margin-top: -25px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  padding-left: 50px;
+}
+
+.listbox li {
+  list-style: none;
+  cursor: pointer;
+  padding-top: 10px;
+  font-weight: 500;
+}

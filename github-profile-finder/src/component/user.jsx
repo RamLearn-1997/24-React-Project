@@ -3,7 +3,7 @@ import '../App.css'
 
 
 export default function User({user}){
-    const {avatar_url, followers, following, public_repos, url, name, login, created_at} = user;
+    const {avatar_url, followers, following, public_repos,name, login, created_at} = user;
 
     const createdDate = new Date(created_at)
 
