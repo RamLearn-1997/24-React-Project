@@ -1,0 +1,129 @@
+/* App.css */
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  width: 100%;
+  height: 100vh;
+  place-items: center;
+  background-color: #161616;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+:root{
+
+    --dark : #191919;
+    --light : #f9f7f7;
+    --border : #000;
+}
+
+[data-theme = 'dark']{
+
+    --dark : #f9f7f7;
+    --light : #191919;
+    --border : #e8e7e7;
+}
+
+.light-dark-mode{
+   background: var(--light);
+   color: var(--dark);
+   border: 4px solid var(--border);
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+
+.h1{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  color: var(--light);
+}
+
+button{
+   border: none;
+   outline: none;
+   color: var(--light);
+   background-color: var(--dark);
+   border-radius: 5px;
+   width: 150px;
+   margin-top: 20px;
+   padding: 10px 20px;
+   cursor: pointer;
+}
+
+
+#customTabContainer {
+  flex-grow: 2;
+  max-width: 600px; /* Optional: Adjust as needed */
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+  border: none;
+  background-color: #e8e7e7;
+  border-radius: 10px;
+  padding: 20px;
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Wrapper for the entire tab component */
+.tabs-wrapper {
+  border: 1px solid #1b1a1a;
+  border-radius: 5px;
+  overflow: hidden;
+  
+  width: 325px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+/* Styling for the tab headers */
+.tabs-heading {
+  display: flex;
+  border-bottom: 1px solid #ccc;
+  color: var(--dark);
+}
+
+/* Individual tab item */
+.tab-item {
+  padding: 10px 20px;
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+  transition: border-color 0.3s ease;
+}
+
+/* Active tab item */
+.tab-item.active {
+  border-color: #007bff;
+  font-weight: bold;
+}
+
+/* Styling for the tab content */
+.tab-content {
+  padding: 20px;
+  border-top: 1px solid #1b1a1a;
+}
