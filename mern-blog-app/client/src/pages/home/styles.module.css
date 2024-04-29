@@ -1,0 +1,36 @@
+.wrapper{
+
+}
+
+.blogList{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.blogList div{
+    padding: 20px;
+    border: 1px solid #3349cb;
+    border-radius: 10px;
+    background-color: #fff;
+    color: #000;
+}
+
+
+.blogList div .flexO{
+    display: flex;
+    justify-content: flex-end;
+    border: none;
+}
+
+.blogList div .flexO .f1{
+    margin-right: 20px;
+}
+
+.blogList div .flexO .f1:hover{
+    color: red;
+}
+
+.blogList div .flexO .f2:hover{
+    color: #3fa9cc;
+}

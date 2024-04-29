@@ -1,0 +1,30 @@
+.wrapper{
+
+    padding: 25px;
+}
+
+.formWrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 600px;
+}
+
+.formWrapper input{
+    padding: 20px;
+    font-size: 20px;
+    background: #f7f0f0;
+    border-radius: 8px;
+    border: none;
+    color: #110f0f;
+}
+
+.formWrapper textarea{
+    padding: 20px;
+    font-size: 17px;
+    background: #f7f0f0;
+    border-radius: 8px;
+    border: none;
+    height: 250px;
+    color: #110f0f;
+}
