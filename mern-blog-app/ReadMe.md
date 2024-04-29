@@ -19,5 +19,8 @@ MERN Blog App is a full-stack blog application built from scratch using the MERN
 
 ## Output
 
-![]()
-**
+![MERN BLOG APP](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/mern-blog-app/client/src/assets/Screenshot%20(459).png)
+*MERN BLOG MAIN*
+
+![MERN BLOG APP](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/mern-blog-app/client/src/assets/Screenshot%20(457).png)
+*MERN BLOG EDIT BLOG PAGE*

@@ -19,7 +19,13 @@ data via API.
 
 ## Output
 
-![]()
-**
+![shopping cart](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/shopping-cart/src/assets/Screenshot%20(357).png)
+*shopping cart starting page*
+
+![shopping cart](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/shopping-cart/src/assets/Screenshot%20(358).png)
+*shopping cart*
+
+![shopping cart](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/shopping-cart/src/assets/Screenshot%20(359).png)
+*Empty shopping cart *
 
 
