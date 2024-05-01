@@ -15,5 +15,18 @@ functionality for managing tasks.
 
 ## Output
 
-![]()
-**
+![start page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/todo-app/src/assets/Screenshot%20(468).png)
+*Main Page*
+
+![Adding 1st task page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/todo-app/src/assets/Screenshot%20(479).png)
+*Adding 1st task *
+
+![Checked task page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/todo-app/src/assets/Screenshot%20(480).png)
+*Checked task *
+
+![update task page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/todo-app/src/assets/Screenshot%20(481).png)
+*Update task *
+
+![delete task page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/todo-app/src/assets/Screenshot%20(482).png)
+*Delete task (Dark red btn)*
+
