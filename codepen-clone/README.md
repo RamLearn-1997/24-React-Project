@@ -30,5 +30,17 @@ This project is a code editor similar to CodePen, where users can write and test
 
 ### Output
 
-![]()
-**
+![Welcome page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/codepen-clone/client/src/assets/Screenshot%20(495).png)
+*Home Page*
+
+![Compiler page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/codepen-clone/client/src/assets/Screenshot%20(496).png)
+*Compiler Page*
+
+![Compiler html page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/codepen-clone/client/src/assets/Screenshot%20(499).png)
+*HTML Page*
+
+![Compiler css page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/codepen-clone/client/src/assets/Screenshot%20(500).png)
+*CSS Page*
+
+![Compiler js page](https://raw.githubusercontent.com/RamLearn-1997/25-React-Project/main/codepen-clone/client/src/assets/Screenshot%20(501).png)
+*JS Page*
