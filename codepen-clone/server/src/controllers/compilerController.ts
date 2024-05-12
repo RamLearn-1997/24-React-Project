@@ -24,8 +24,8 @@ export const saveCode = async (req: Request, res: Response) => {
 export const loadCode = async (req: Request, res: Response) => {
   const { urlId } = req.body;
   // Open Connection to DB  
-  await dbConnect();
-  console.log("LOADCODE: After dbConnect ~~~ ");
+  await dbConnect();    
+  // console.log("LOADCODE: After dbConnect ~~~ ");
   await Code.findById(urlId).exec()
   .then((resp) => {
     console.log("Successfully fetched code! : " + resp );
