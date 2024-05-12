@@ -19,24 +19,25 @@ export default function Compiler() {
     const {urlId} = useParams()
     const dispatch = useDispatch()
 
+    console.log("ADITYA: "+urlId);
     const loadCode = async () => {
-        try {
-            const response = await axios.post("http://localhost:4000/compiler/load", {
+        await axios.post("http://localhost:4000/compiler/load", {
                 urlId: urlId
-            })
-            dispatch(updateFullCode(response.data.fullCode))
-        } catch (error) {
-            if(axios.isAxiosError(error)){
-               if(error?.response?.status === 500){
-                toast("Invalid URL, Default Code Loaded")
-               }
-            }
-            
-            handleError(error)
-        }
+            }).then( (response) => {
+                dispatch(updateFullCode(response.data.fullCode))
+            }).catch( (error) => {
+                if(axios.isAxiosError(error)){
+                    if(error?.response?.status === 500){
+                     toast("Invalid URL, Default Code Loaded")
+                    }
+                 }
+                 handleError(error)
+            }) 
+
     }
 
     useEffect(()=>{
+        console.log("ADITYA: "+urlId);
          if(urlId){
            loadCode()
          }

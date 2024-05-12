@@ -42,17 +42,16 @@ export default function HelperHeader() {
 
     const handleSaveCode = async () => {
         setSaveLoading(true)
-        try {
-            const repsonse = await axios.post('http://localhost:4000/compiler/save', {
-                fullCode: fullCode
-            })
-            console.log(repsonse.data)
-            navigate(`/compiler/${repsonse.data.url}`, { replace: true })
-        } catch (error) {
-            handleError(error)
-        } finally {
-            setSaveLoading(false)
-        }
+        await axios.post('http://localhost:4000/compiler/save', {
+            fullCode: fullCode
+        }).then( (response) => {
+            console.log(response.data)
+            navigate(`/compiler/${response.data.url}`, { replace: true });
+        }).catch((err) => {
+            handleError(err);
+        }).finally( () => {
+            setSaveLoading(false);
+        })
     }
 
     const dispatch = useDispatch()
