@@ -1,7 +1,7 @@
-# 🌟 New Chapter: The 25 React Projects Challenge! 🌟
+# 🌟 New Chapter: The 24 React Projects Challenge! 🌟
 
 As I venture further into my software development journey, I'm thrilled to share with you all my next big challenge: 
-Embarking on 25 React projects. This initiative is about pushing my boundaries, enhancing my skills, and diving deep into the React ecosystem.
+Embarking on 24 React projects. This initiative is about pushing my boundaries, enhancing my skills, and diving deep into the React ecosystem.
 
 ## Why Take on This Challenge?
 
